@@ -1,0 +1,31 @@
+{
+    "env": {
+        "OF_ROOT": "C:/projects/of_v0.12.0_msys2_mingw64_release"
+    },
+    "configurations": [
+        {
+            "name": "OF-MINGW64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:OF_ROOT}/addons/**/src",
+                "${env:OF_ROOT}/libs/openFrameworks/**",
+                "${env:OF_ROOT}/libs/**",
+                "c:/msys64/mingw64/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "c:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
